@@ -7,7 +7,7 @@
 
 Since Google Drive has macOS architecture specific PKGs that won't be installed, this will cause an endless install loop if the applicable PKG receipts aren't marked as optional. Unlike the sister GoogleDrive.munki.recipe which uses the PKG receipts to determine the install status, this recipe instead refers to the installed app version.</string>
     <key>Identifier</key>
-    <string>com.github.apizz.munki.GoogleDrive_app</string>
+    <string>com.github.quornicus.munki.GoogleDrive_app</string>
     <key>Input</key>
     <dict>
         <key>DERIVE_MIN_OS</key>
